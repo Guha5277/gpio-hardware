@@ -22,8 +22,8 @@ public interface ScalesController {
     /**
      * Получение медианного значения нескольких измерений
      * @param readCounts требуемое количество чтений. Нечетное число, минимальное количество - 3,
-     *                   приводится к требуемому значению, в случае несоответствия - если readsCount < 3 -> 3,
-     *                   если readsCount нечетное значение -> readsCount = readsCount + 1
+     *                   приводится к требуемому значению в случае несоответствия - если readsCount < 3 -> readsCount = 3,
+     *                   если readsCount четное значение -> readsCount = readsCount + 1
      * @return медианное значение веса
      */
     default double weightMedian(int readCounts) {

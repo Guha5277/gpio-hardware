@@ -3,7 +3,7 @@ package ru.guhar4k.gpio.core.hardware;
 import ru.guhar4k.gpio.core.property.SensorState;
 
 /**
- * Базовая абстракция простого сенсора, выдающего на вход логический 0 или 1 в зависимости от состояния
+ * Базовая абстракция простого сенсора, выдающего на вход логический 0 или 1 в зависимости от своего состояния
  */
 public interface SensorController {
 

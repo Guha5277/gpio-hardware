@@ -38,7 +38,6 @@ public class ModulesAutoConfiguration {
         return this::getMotorDriver;
     }
 
-
     @Bean
     public ModuleProvider<ScalesController> getScalesControllerProvider() {
         return this::getScalesControllers;
